@@ -12,6 +12,13 @@ import ProductComp from "./Components/ProductComp";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
+// import CartCount from "./Components/CartCount";
+// import CountProduct from "./Components/CountProductComp";
+// import CountProductComp from "./Components/CountProductComp";
+
+
+
+
 
 function App(){
   return(
@@ -47,10 +54,28 @@ function App(){
       
       // </BrowserRouter>
 
-      // <GrosaryListComp/>
+      <GrosaryListComp/>
 
       // <UseFetchApi/>
-      <ProductComp/>
+      // <ProductComp/>
+
+    //   <CounterProvider>
+      
+    //   <CartCount/>
+    //  <CountProductComp/>
+      
+    //   </CounterProvider>
+
+      
+      
+    
+
+
+
+
+    
+      
+      
   )
 }
 
